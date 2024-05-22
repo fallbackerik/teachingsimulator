@@ -8,8 +8,20 @@ define b = Character("Bertram", color="ffc8c8")
 
 # Images
 image bg room = "bg.png"
-image eileen = "eileen.png"
-image bertram = "bertram.png"
+image eileen = Composite(
+    (467, 946), # TODO adapt coordinates
+    (0, 0), "assets/fm01/fm01-body.png",
+    (0, 0), "assets/fm01/fm01-eyes-smile.png",
+    (0, 0), "assets/fm01/fm01-mouth-smile00.png",
+)
+
+# TODO change direction of character so both characters face each other
+image bertram = Composite(
+    (467, 946), # TODO adapt coordinates
+    (0, 0), "assets/m01/m01-body.png",
+    (0, 0), "assets/m01/m01-eyes-smile.png",
+    (0, 0), "assets/m01/m01-mouth-smile00.png",
+)
 
 
 # The game starts here.
