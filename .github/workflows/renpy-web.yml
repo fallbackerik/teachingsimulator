@@ -1,13 +1,12 @@
 name: Build RenPy
 
-on:
-  push:
+on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - name: Install RenPy
       uses: PaxlavaGames/renpy-install@v0.3.0
       with:
@@ -15,3 +14,6 @@ jobs:
         download_web: "yes"
     - name: Build RenPy
       uses: PaxlavaGames/renpy-web-build@v0.1.2
+    - name: try to fail
+        run: |
+          thiscommanddoesntexist 123
