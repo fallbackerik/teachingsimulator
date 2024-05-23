@@ -20,7 +20,7 @@ image eileen = Composite(
 # TODO change direction of character so both characters face each other
 # TODO adapt coordinates
 image bertram = Composite(
-    (0, 0),
+    (556, 1000),
     (0, 0), "assets/m01/m01-body.png",
     (0, 0), "assets/m01/m01-eyes-smile.png",
     (0, 0), "assets/m01/m01-mouth-smile00.png",
