@@ -42,33 +42,3 @@ label start:
     b "Alright, let's get back to the main menu."
 
     return
-
-# Main menu customizations
-
-init -2:
-    # buttons
-    style mm_button_text:
-        size 40
-
-    # custom main menu
-    screen main_menu():
-        tag menu
-
-        window:
-            style "mm_window"
-
-        frame:
-            style_group "mm_window"
-
-            has vbox
-
-            textbutton _("Start") action Start()
-            #greyed out for now
-            textbutton _("Options") action None()
-            textbutton _("Quit") action Quit()
-
-    # add main menu to game
-    label main_menu:
-        call screen main_menu
-        return
-
