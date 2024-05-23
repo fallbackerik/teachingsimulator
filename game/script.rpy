@@ -32,6 +32,8 @@ image bertram = Composite(
 label start:
     scene bg room
 
+    "At the beginning of an exciting new day..."
+
     show eileen happy at left with dissolve
 
     e "Hello there! How are you today?"
