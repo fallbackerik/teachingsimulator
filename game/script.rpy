@@ -11,7 +11,7 @@ image bg room = "assets/bg01-hallway.jpg"
 
 # TODO adapt coordinates
 image eileen = Composite(
-    (467, 946),
+    (150, 275),
     (0, 0), "assets/fm01/fm01-body.png",
     (0, 0), "assets/fm01/fm01-eyes-smile.png",
     (0, 0), "assets/fm01/fm01-mouth-smile00.png",
@@ -20,7 +20,7 @@ image eileen = Composite(
 # TODO change direction of character so both characters face each other
 # TODO adapt coordinates
 image bertram = Composite(
-    (467, 946),
+    (150, 275),
     (0, 0), "assets/m01/m01-body.png",
     (0, 0), "assets/m01/m01-eyes-smile.png",
     (0, 0), "assets/m01/m01-mouth-smile00.png",
