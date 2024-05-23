@@ -55,7 +55,7 @@ init -2:
         tag menu
 
         window:
-            style ""mm_window"
+            style "mm_window"
 
         frame:
             style_group "mm_window"
