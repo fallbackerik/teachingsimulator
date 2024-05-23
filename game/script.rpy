@@ -21,9 +21,9 @@ image eileen = Composite(
 # TODO adapt coordinates
 image bertram = Composite(
     (556, 1000),
-    (0, 0), "assets/m01/m01-body.png",
-    (0, 0), "assets/m01/m01-eyes-smile.png",
-    (0, 0), "assets/m01/m01-mouth-smile00.png",
+    (0, 0), im.Flip("assets/m01/m01-body.png"),
+    (0, 0), im.Flip("assets/m01/m01-eyes-smile.png"),
+    (0, 0), im.Flip("assets/m01/m01-mouth-smile00.png"),
 )
 
 
@@ -40,7 +40,7 @@ label start:
 
     show bertram at right with dissolve
 
-    b flip "I'm good, thank you! And you?"
+    b "I'm good, thank you! And you?"
     e "I'm doing well, thanks for asking."
     b "Alright, let's get back to the main menu."
 
