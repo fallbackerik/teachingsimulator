@@ -16,3 +16,11 @@ jobs:
       uses: PaxlavaGames/renpy-web-build@v0.1.2
     - name: Show Web Build results
       run: ls renpy web_build renpy/web_build
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        # Upload entire repository
+        path: './web_build'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
