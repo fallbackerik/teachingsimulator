@@ -34,13 +34,13 @@ label start:
 
     "At the beginning of an exciting new day..."
 
-    show eileen happy at left with dissolve
+    show eileen at left with dissolve
 
     e "Hello there! How are you today?"
 
-    show bertram happy at right with dissolve
+    show bertram at right with dissolve
 
-    b "I'm good, thank you! And you?"
+    b flip "I'm good, thank you! And you?"
     e "I'm doing well, thanks for asking."
     b "Alright, let's get back to the main menu."
 
