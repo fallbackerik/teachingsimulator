@@ -21,9 +21,9 @@ image eileen = Composite(
 # TODO adapt coordinates
 image bertram = Composite(
     (556, 1000),
-    (0, 0), im.Flip("assets/m01/m01-body.png"),
-    (0, 0), im.Flip("assets/m01/m01-eyes-smile.png"),
-    (0, 0), im.Flip("assets/m01/m01-mouth-smile00.png"),
+    (0, 0), im.Flip("assets/m01/m01-body.png", horizontal=True),
+    (0, 0), im.Flip("assets/m01/m01-eyes-smile.png", horizontal=True),
+    (0, 0), im.Flip("assets/m01/m01-mouth-smile00.png", horizontal=True),
 )
 
 
