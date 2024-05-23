@@ -7,7 +7,8 @@ define e = Character("Eileen", color="#c8ffc8")
 define b = Character("Bertram", color="ffc8c8")
 
 # Images
-image bg room = "bg.png"
+image bg room = "assets/bg01-hallway.jpg"
+
 # TODO adapt coordinates
 image eileen = Composite(
     (467, 946),
