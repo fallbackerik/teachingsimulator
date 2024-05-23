@@ -11,7 +11,7 @@ image bg room = "assets/bg01-hallway.jpg"
 
 # TODO adapt coordinates
 image eileen = Composite(
-    (0, 0),
+    (556, 1000),
     (0, 0), "assets/fm01/fm01-body.png",
     (0, 0), "assets/fm01/fm01-eyes-smile.png",
     (0, 0), "assets/fm01/fm01-mouth-smile00.png",
