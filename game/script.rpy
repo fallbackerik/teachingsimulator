@@ -1,5 +1,7 @@
 ﻿# The script of the game goes in this file.
 
+define gui.main_menu_background = "assets/bg02-dorm.jpg"
+
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
