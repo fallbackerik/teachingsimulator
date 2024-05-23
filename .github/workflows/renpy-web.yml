@@ -14,3 +14,5 @@ jobs:
         download_web: "yes"
     - name: Build RenPy
       uses: PaxlavaGames/renpy-web-build@v0.1.2
+    - name: Show Web Build results
+      run: ls renpy web_build renpy/web_build
