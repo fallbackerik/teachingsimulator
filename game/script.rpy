@@ -8,16 +8,18 @@ define b = Character("Bertram", color="ffc8c8")
 
 # Images
 image bg room = "bg.png"
+# TODO adapt coordinates
 image eileen = Composite(
-    (467, 946), # TODO adapt coordinates
+    (467, 946),
     (0, 0), "assets/fm01/fm01-body.png",
     (0, 0), "assets/fm01/fm01-eyes-smile.png",
     (0, 0), "assets/fm01/fm01-mouth-smile00.png",
 )
 
 # TODO change direction of character so both characters face each other
+# TODO adapt coordinates
 image bertram = Composite(
-    (467, 946), # TODO adapt coordinates
+    (467, 946),
     (0, 0), "assets/m01/m01-body.png",
     (0, 0), "assets/m01/m01-eyes-smile.png",
     (0, 0), "assets/m01/m01-mouth-smile00.png",
@@ -61,10 +63,12 @@ init -2:
             has vbox
 
             textbutton _("Start") action Start()
-            textbutton _("Options") action None() #greyed out for now
+            #greyed out for now
+            textbutton _("Options") action None()
             textbutton _("Quit") action Quit()
 
     # add main menu to game
     label main_menu:
         call screen main_menu
         return
+
