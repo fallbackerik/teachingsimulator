@@ -66,3 +66,7 @@ define gui.notify_text_size = 24
 
 ## The size of the game's title.
 define gui.title_text_size = 75
+
+## The images used for the main and game menus.
+define gui.main_menu_background = "assets/bg02-dorm.jpg"
+define gui.game_menu_background = "assets/bg02-dorm.jpg"
