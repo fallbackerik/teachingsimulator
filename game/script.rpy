@@ -59,9 +59,6 @@ label start:
     bertran "Sounds good, let's keep going..."
     pause
 
-    window hide
-    pause
-
     hide teacher with dissolve
     pause
 
