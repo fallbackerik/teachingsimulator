@@ -9,7 +9,6 @@ define b = Character("Bertram", color="ffc8c8")
 # Images
 image bg room = "assets/bg01-hallway.jpg"
 
-# TODO adapt coordinates
 image eileen = Composite(
     (556, 1000),
     (0, 0), "assets/fm01/fm01-body.png",
@@ -17,8 +16,6 @@ image eileen = Composite(
     (0, 0), "assets/fm01/fm01-mouth-smile00.png",
 )
 
-# TODO change direction of character so both characters face each other
-# TODO adapt coordinates
 image bertram = Composite(
     (556, 1000),
     (0, 0), im.Flip("assets/m01/m01-body.png", horizontal=True),
