@@ -3,8 +3,8 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-define characters.teacher = Character("Teacher Eileen", color="#c8ffc8")
-define characters.bertram = Character("Bertram", color="ffc8c8")
+define Teacher = Character("Teacher Eileen", color="#c8ffc8")
+define Bertram = Character("Bertram", color="ffc8c8")
 
 # Images
 image bg room = "assets/bg01-hallway.jpg"
@@ -44,19 +44,22 @@ label start:
 
     "At the beginning of an exciting new day..."
 
-    show characters.teacher at left with dissolve
+    show teacher at left with dissolve
     pause
 
-    teacher "Hello [bertram]! Did you rest well?"
+    Teacher "Hello [Bertram]! Did you rest well?"
 
     show bertram at right with dissolve
     pause
 
-    bertram "I did, thank you! And you, [teacher]?"
-    teacher "Same, thanks for asking."
+    Bertram "I did, thank you! And you, [Teacher]?"
+    Teacher "Same, thanks for asking."
     extend "Alright, let's continue the exercises."
 
-    bertran "Sounds good, let's keep going..."
+    Bertran "Sounds good, let's keep going..."
+    pause
+
+    window hide
     pause
 
     hide teacher with dissolve
