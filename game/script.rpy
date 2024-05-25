@@ -44,12 +44,12 @@ label start:
 
     "At the beginning of an exciting new day..."
 
-    show teacher at left with dissolve
+    show teacher idle at left with dissolve
     pause
 
     Teacher "Hello [Bertram]! Did you rest well?"
 
-    show bertram at right with dissolve
+    show bertram idle at right with dissolve
     pause
 
     Bertram "I did, thank you! And you, [Teacher]?"
