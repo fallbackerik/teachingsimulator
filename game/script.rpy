@@ -9,7 +9,7 @@ define Bertram = Character("Bertram", color="ffc8c8")
 # Images
 image bg room = "assets/bg01-hallway.jpg"
 
-image eileen idle = Composite(
+image teacher idle = Composite(
     (556, 1000),
     (0, 0), "assets/fm01/fm01-body.png",
     (0, 0), "assets/fm01/fm01-eyes-smile.png",
@@ -23,7 +23,7 @@ image bertram idle = Composite(
     (0, 0), im.Flip("assets/m01/m01-mouth-smile00.png", horizontal=True),
 )
 
-image eileen hover = Composite(
+image teacher hover = Composite(
     (556, 1000),
     (0, 0), "assets/fm01/fm01-body.png",
     (0, 0), "assets/fm01/fm01-eyes-wow.png",
