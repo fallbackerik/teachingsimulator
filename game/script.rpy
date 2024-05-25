@@ -44,7 +44,7 @@ label start:
 
     "At the beginning of an exciting new day..."
 
-    show teacher at left with dissolve
+    show characters.teacher at left with dissolve
     pause
 
     teacher "Hello [bertram]! Did you rest well?"
