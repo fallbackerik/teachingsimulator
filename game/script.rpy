@@ -56,7 +56,7 @@ label start:
     Teacher "Same, thanks for asking."
     extend "Alright, let's continue the exercises."
 
-    Bertran "Sounds good, let's keep going..."
+    Bertram "Sounds good, let's keep going..."
     pause
 
     window hide
