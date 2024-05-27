@@ -38,6 +38,7 @@ style window:
     xfill True
     yalign gui.textbox_yalign
     ysize gui.textbox_height
+    background Solid("#aaa")
 
 style namebox:
     xpos gui.name_xpos
@@ -45,6 +46,7 @@ style namebox:
     xsize gui.namebox_width
     ypos gui.name_ypos
     ysize gui.namebox_height
+    background Solid("#aaa")
 
     padding gui.namebox_borders.padding
 
