@@ -39,8 +39,6 @@ style window:
     yalign gui.textbox_yalign
     ysize gui.textbox_height
 
-    background Image(gui.main_menu_background, xalign=0.5, yalign=1.0)
-
 style namebox:
     xpos gui.name_xpos
     xanchor gui.name_xalign
@@ -48,7 +46,6 @@ style namebox:
     ypos gui.name_ypos
     ysize gui.namebox_height
 
-    background Frame(gui.game_menu_background, gui.namebox_borders, tile=gui.namebox_tile, xalign=gui.name_xalign)
     padding gui.namebox_borders.padding
 
 style say_label:
